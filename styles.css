@@ -1,0 +1,48 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    min-height: 100%;
+    max-width: 100%;
+    background: #d23be6;
+    background: -webkit-linear-gradient(to top, #7f01a5 , #22749c); 
+    background: linear-gradient(to top, #7f01a5 , #22749c); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.shadow-lg {
+    background-color: #eef5f4ad;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.shadow-title {
+    background-color: #10645817;
+    margin: auto;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.col-3 {
+    margin: auto;
+    width: 90%;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+}
+
+.round-img {      
+    border-radius: 50%;
+    margin: 20px;
+}
+
+

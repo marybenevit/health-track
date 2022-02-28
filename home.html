@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link href="styles.css" rel="stylesheet">
+
+    <title>Health Track | Home</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <!--Menu-->
+
+        <nav class="navbar navbar-expand-lg navbar-light shadow-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="images/healthtracklogo.png" alt="" height="30"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="peso.html">Peso</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="calorias.html">Calorias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="atividade.html">Atividade Física</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="config.html">Configurações</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--Fim Menu-->
+
+        <div class="row shadow-lg">
+            <div class="shadow-title">
+                <h1 class="fs-4 fw-bold">Home</h1>
+            </div>
+            <div class="profile mb-4">
+                <img class="round-img" src="images/profile.jpg" alt="Imagem do Perfil" width="200px">
+                <h1 class="fs-4 fw-bold mb-1">Olá, Raquel</h1>              
+            </div>
+            <div class="col-3 col-md-6 col-lg-7 col-xl-7">
+                <div class="row data mb-2">
+                    <h3 class="fs-4 fw-bold">Sexta-feira, 25/02</h3>
+                </div>          
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card-shadow-danger mb-3 widget-chart widget-chart2 text-left card">
+                            <div class="widget-content">
+                                <div class="widget-content-outer">
+                                    <div class="widget-content-wrapper">
+                                        <div class="widget-content-left pr-2 fsize-1">
+                                            <div class="widget-numbers mt-0 fsize-3 text-danger">71%</div>
+                                        </div>
+                                        <div class="widget-content-right w-100">
+                                            <div class="progress-bar-xs progress">
+                                                <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="71"
+                                                    aria-valuemin="0" aria-valuemax="100" style="width: 71%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="widget-content-left fsize-1">
+                                        <div class="text-muted opacity-6">Meta de Calorias</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card-shadow-success mb-3 widget-chart widget-chart2 text-left card">
+                            <div class="widget-content">
+                                <div class="widget-content-outer">
+                                    <div class="widget-content-wrapper">
+                                        <div class="widget-content-left pr-2 fsize-1">
+                                            <div class="widget-numbers mt-0 fsize-3 text-success">54%</div>
+                                        </div>
+                                        <div class="widget-content-right w-100">
+                                            <div class="progress-bar-xs progress">
+                                                <div class="progress-bar bg-success" role="progressbar" aria-valuenow="54"
+                                                    aria-valuemin="0" aria-valuemax="100" style="width: 54%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="widget-content-left fsize-1">
+                                        <div class="text-muted opacity-6">Meta de Exercício</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                                                  
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card-shadow-info mb-3 widget-chart widget-chart2 text-left card">
+                            <div class="widget-content">
+                                <div class="widget-content-outer">
+                                    <div class="widget-content-wrapper">
+                                        <div class="widget-content-left pr-2 fsize-1">
+                                            <div class="widget-numbers mt-0 fsize-3 text-info">89%</div>
+                                        </div>
+                                        <div class="widget-content-right w-100">
+                                            <div class="progress-bar-xs progress">
+                                                <div class="progress-bar bg-info" role="progressbar" aria-valuenow="89"
+                                                    aria-valuemin="0" aria-valuemax="100" style="width: 89%;"></div>
+                                            </div>
+                                        </div>
+                                    </div>                
+                                    <div class="widget-content-left fsize-1">
+                                        <div class="text-muted opacity-6">Ingestão de Água</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <h6>Na última semana, você:</h6>
+                    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 p-2">
+                        <a class="text-decoration-none" href="#">
+                            <div class="card p-3 text-center">
+                                <div class="card-body">
+                                    <i class="fa fa-bookmark-o fa-2x" aria-hidden="true"></i>
+                                    <tbody>
+                                        <tr>
+                                            <td class="align-middle"><img src="images\exercise.png" class="imghome" alt="Ícone de Exercício" height="75px"></td>
+                                            <td class="align-middle">
+                                                <h6>Se exercitou em média</h6>
+                                            </td>
+                                            <td class="align-middle">
+                                                <h5><b>4h20min</b></h5>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0"
+                                                        aria-valuemax="100">60% da meta</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 p-2">
+                        <a class="text-decoration-none" href="#">
+                            <div class="card p-3 text-center">
+                                <div class="card-body">
+                                    <i class="fa fa-bookmark-o fa-2x" aria-hidden="true"></i>
+                                    <tbody>
+                                        <tr>
+                                            <td class="align-middle"><img src="images\food.png" class="imghome" alt="Ícone de Comida" height="75px"></td>
+                                            <td class="align-middle">
+                                                <h6>Ingeriu em média</h6>
+                                            </td>
+                                            <td class="align-middle">
+                                                <h5><b>1565 kcal</b></h5>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0"
+                                                        aria-valuemax="100">90% da meta</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 p-2">
+                        <a class="text-decoration-none" href="#">
+                            <div class="card p-3 text-center">
+                                <div class="card-body">
+                                    <i class="fa fa-bookmark-o fa-2x" aria-hidden="true"></i>
+                                    <tbody>
+                                        <tr>
+                                            <td class="align-middle"><img src="images\scale.png" class="imghome" alt="Ícone de Balança" height="75px"></td>
+                                            <td class="align-middle">
+                                                <h6>Perdeu em média</h6>
+                                            </td>
+                                            <td class="align-middle">
+                                                <h5><b>0.467 g</b></h5>
+                                                <div class="progress">
+                                                    <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0"
+                                                        aria-valuemax="100">80% da meta</div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </div>
+                            </div>
+                        </a>
+                    </div>                  
+                    <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 p-2">
+                        <a class="text-decoration-none" href="#">
+                            <div class="card p-3 text-center">
+                                <div class="card-body">
+                                    <i class="fa fa-bookmark-o fa-2x" aria-hidden="true"></i>
+                                    <tbody>
+                                        <tr>
+                                            <td class="align-middle">
+                                                <h6>Seu objetivo deve ser atendido em:</h6>
+                                            </td>
+                                            <td class="align-middle"><h5><b>30/06/2022</b></h5>
+                                            </td>
+                                            <br>
+                                            <td class="align-middle"><button onclick="config.html" class="btn btn-primary ms-auto">Redefinir Objetivo</button>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>        
+            </div>
+        </div>
+    </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
